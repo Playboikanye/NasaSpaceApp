@@ -1,0 +1,33 @@
+/* Make the 3D canvas fill the entire screen */
+body {
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+}
+
+canvas {
+    display: block;
+}
+
+/* Style for the information overlay */
+#info-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9em;
+}
